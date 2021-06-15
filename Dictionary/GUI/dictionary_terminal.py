@@ -3,7 +3,7 @@ import os
 from difflib import get_close_matches
 import easygui as eg
 
-x = open('D:\IP PROJECT\Dictionary\Terminal\dictdata.json',)
+x = open('dictdata.json',)
 data = json.load(x)
 
 def query(w):
